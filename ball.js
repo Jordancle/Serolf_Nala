@@ -8,9 +8,9 @@ class Ball {
 		this.yVelocity = 0;
 	}
 	
-	show() {
-		if (this.color == 0) {
-			fill(255,0,0);
+	show() {							//Shows the ball on screen
+		if (this.color == 0) {			//Color depends on "color" value
+			fill(255,0,0);				// that was passed in.
 		} else if (this.color == 1) {
 			fill(0,255,0);
 		} else if (this.color == 2) {

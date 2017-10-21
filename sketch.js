@@ -2,19 +2,16 @@ function setup() {
 	createCanvas(1000,600);
 	ball_red = new Ball(200,300,32,0);
 	ball_blue = new Ball(800,300,32,2);
-	ball_green = new Ball(500,300,32,1);
 	speed = 5;
 }
 
 function draw() {
-	background(102,102,153);
+	background(102,102,153);				//Dark blue background
 	
 	ball_red.show();
 	ball_red.update();
 	
 	ball_blue.show();
-	ball_green.show();
-	ball_green.update();
 	
 	if (keyIsDown(87)) {		// Up
 		ball_red.y -= speed;
