@@ -5,6 +5,18 @@ function setup() {
 	ball_green = new Ball(500,300,32,2);
 	speed = 5;
 }
+/*
+ * New variable lastKeyPressedX = 0 and lastKeyPressedY = 0
+ * 0 = negative direction
+ * 1 = positive direction.
+ * 
+ * Within the if statements, update these variables
+ */ 
+ 
+ /*
+  * Shoot function, checks the last direction of the player
+  * if spacebar key is down
+  */
 
 function draw() {
 	background(102,102,153);				//Dark blue background
